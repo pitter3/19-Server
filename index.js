@@ -1226,6 +1226,229 @@ app.get('/priestgear', (req, res) => {
   res.status(200).send(priestGear);
 });
 
+app.get('/paladingear', (req, res) => {
+  const paladinGear = [
+    {
+      name: 'Deadskull Shield',
+      itemId: 3761,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Sacred Burial Trousers',
+      itemId: 6282,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Seal of Sylvanas',
+      itemId: 6414,
+      faction: 'horde',
+      rarity: 'q3',
+    },
+    {
+      name: 'Steel-clasped Bracers',
+      itemId: 4534,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Screecher Belt',
+      itemId: 16987,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Grizzled Boots',
+      itemId: 6335,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Ghostly Mantle',
+      itemId: 3324,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Inferno Robe',
+      itemId: 2231,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Jutebraid Gloves',
+      itemId: 10654,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Glacial Stone',
+      itemId: 5815,
+      faction: 'alliance',
+      rarity: 'q2',
+    },
+    {
+      name: 'Seraph’s Strike',
+      itemId: 5614,
+      faction: 'alliance',
+      rarity: 'q2',
+    },
+    {
+      name: 'Seal of Wrynn',
+      itemId: 2933,
+      faction: 'alliance',
+      rarity: 'q3',
+    },
+    {
+      name: 'Minor Channeling Ring',
+      itemId: 1449,
+      faction: 'alliance',
+      rarity: 'q2',
+    },
+    {
+      name: 'Beetle Clasps',
+      itemId: 7003,
+      faction: 'alliance',
+      rarity: 'q2',
+    },
+    {
+      name: 'Chausses of Westfall',
+      itemId: 6087,
+      faction: 'alliance',
+      rarity: 'q3',
+    },
+    {
+      name: 'Malleable Chain Leggings',
+      itemId: 2545,
+      faction: 'alliance',
+      rarity: 'q2',
+    },
+    {
+      name: 'Tunneler’s Boots',
+      itemId: 2037,
+      faction: 'alliance',
+      rarity: 'q2',
+    },
+    {
+      name: 'Pious Legwraps',
+      itemId: 10043,
+      faction: 'alliance',
+      rarity: 'q2',
+    },
+    {
+      name: 'Arctic Buckler',
+      itemId: 7002,
+      faction: 'both',
+      rarity: 'q3',
+    },
+    {
+      name: 'Everglow Lantern',
+      itemId: 5323,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Green Carapace Shield (BoE)',
+      itemId: 2021,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Black Widow Band (BoE)',
+      itemId: 6199,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Rift Bracers',
+      itemId: 5943,
+      faction: 'both',
+      rarity: 'q3',
+    },
+    {
+      name: 'Goblin Mail Leggings (BoE)',
+      itemId: 1943,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Blackened Defias Armor',
+      itemId: 10399,
+      faction: 'both',
+      rarity: 'q3',
+    },
+    {
+      name: 'Blackened Defias Belt (BoE)',
+      itemId: 10403,
+      faction: 'both',
+      rarity: 'q3',
+    },
+    {
+      name: 'Blackened Defias Boots (BoE)',
+      itemId: 10402,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Draftsman Boots',
+      itemId: 6668,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Tarantula Silk Sash (BoE)',
+      itemId: 3229,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Metalworking Gloves (BoE)',
+      itemId: 1944,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Woodworking Gloves (BoE)',
+      itemId: 1945,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Gloomshroud Armor (BoE)',
+      itemId: 1489,
+      faction: 'both',
+      rarity: 'q3',
+    },
+    {
+      name: 'Rugged Spaulders',
+      itemId: 5254,
+      faction: 'both',
+      rarity: 'q3',
+    },
+    {
+      name: 'Talbar Mantle',
+      itemId: 10657,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Walking Boots (BoE)',
+      itemId: 4660,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: `Noble’s Robe (BoE)`,
+      itemId: 3019,
+      faction: 'both',
+      rarity: 'q2',
+    },
+  ];
+
+  res.status(200).send(paladinGear)
+
+
 
 
 
