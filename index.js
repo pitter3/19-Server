@@ -298,7 +298,7 @@ app.get('/roguegear', (req, res) => {
 app.get('/warriorgear', (req, res) => {
   const warriorGear = [
     {
-      name: 'Seraph’s Strike',
+      name: `Seraph's Strike`,
       itemId: 5614,
       faction: 'alliance',
     },
@@ -751,7 +751,7 @@ app.get('/huntergear', (req, res) => {
       rarity: 'q2',
     },
     {
-      name: 'Seraph’s Strike',
+      name: `Seraph's Strike`,
       itemId: 5614,
       faction: 'alliance',
       rarity: 'q2',
@@ -1004,7 +1004,7 @@ app.get('/shamangear', (req, res) => {
       rarity: 'q2',
     },
     {
-      name: 'Noble’s Robe (BOE)',
+      name: `Noble's Robe (BOE)`,
       itemId: 3019,
       faction: 'both',
       rarity: 'q2',
@@ -1101,7 +1101,7 @@ app.get('/warlockgear', (req, res) => {
       rarity: 'q2',
     },
     {
-      name: 'Noble’s Robe (BoE)',
+      name: `Noble's Robe (BoE)`,
       itemId: 3019,
       faction: 'both',
       rarity: 'q2',
@@ -1211,7 +1211,7 @@ app.get('/priestgear', (req, res) => {
       rarity: 'q2',
     },
     {
-      name: 'Noble’s Robe (BoE)',
+      name: `Noble's Robe (BoE)`,
       itemId: 3019,
       faction: 'both',
       rarity: 'q2',
@@ -1289,7 +1289,7 @@ app.get('/paladingear', (req, res) => {
       rarity: 'q2',
     },
     {
-      name: 'Seraph’s Strike',
+      name: 'Seraph\'s Strike',
       itemId: 5614,
       faction: 'alliance',
       rarity: 'q2',
@@ -1325,7 +1325,7 @@ app.get('/paladingear', (req, res) => {
       rarity: 'q2',
     },
     {
-      name: 'Tunneler’s Boots',
+      name: 'Tunneler\'s Boots',
       itemId: 2037,
       faction: 'alliance',
       rarity: 'q2',
@@ -1439,14 +1439,14 @@ app.get('/paladingear', (req, res) => {
       rarity: 'q2',
     },
     {
-      name: `Noble’s Robe (BoE)`,
+      name: `Noble's Robe (BoE)`,
       itemId: 3019,
       faction: 'both',
       rarity: 'q2',
     },
   ];
-
-  res.status(200).send(paladinGear)
+  res.status(200).send(paladinGear);
+});
 
 
 
