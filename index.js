@@ -397,6 +397,311 @@ app.get('/warriorgear', (req, res) => {
   res.status(200).send(warriorGear);
 });
 
+app.get('/magegear', (req, res) => {
+  const mageGear = [
+    {
+      name: 'Inferno Robe',
+      itemId: 2231,
+      faction: 'horde',
+    },
+    {
+      name: 'Bloody Apron',
+      itemId: 6226,
+      faction: 'both',
+    },
+    {
+      name: 'Jutebraid Gloves',
+      itemId: 10654,
+      faction: 'horde',
+    },
+    {
+      name: 'Sacred Burial Trousers',
+      itemId: 6282,
+      faction: 'horde',
+    },
+    {
+      name: 'Chestnut Mantle',
+      itemId: 17695,
+      faction: 'horde',
+    },
+    {
+      name: 'Ghostly Mantle',
+      itemId: 3324,
+      faction: 'horde',
+    },
+    {
+      name: 'Crescent Staff',
+      itemId: 6505,
+      faction: 'horde',
+    },
+    {
+      name: 'Seal of Sylvanas',
+      itemId: 6414,
+      faction: 'horde',
+    },
+    {
+      name: 'Totem of Infliction',
+      itemId: 1131,
+      faction: 'alliance',
+    },
+    {
+      name: 'Seal of Wyrnn',
+      itemId: 2933,
+      faction: 'alliance',
+    },
+    {
+      name: 'Minor Channeling Ring',
+      itemId: 1449,
+      faction: 'alliance',
+    },
+    {
+      name: 'Pious Legwraps',
+      itemId: 10043,
+      faction: 'alliance',
+    },
+    {
+      name: 'Talbar Mantle',
+      itemId: 10657,
+      faction: 'both',
+    },
+    {
+      name: 'Staff of the Purifier',
+      itemId: 5613,
+      faction: 'both',
+    },
+    {
+      name: 'Gravestone Scepter',
+      itemId: 7001,
+      faction: 'both',
+    },
+    {
+      name: 'Everglow Lantern',
+      itemId: 5323,
+      faction: 'both',
+    },
+    {
+      name: 'Black Widow Band (BOE)',
+      itemId: 6199,
+      faction: 'both',
+    },
+    {
+      name: 'Walking Boots (BOE)',
+      itemId: 4660,
+      faction: 'both',
+    },
+    {
+      name: `Noble's Robe (BOE)`,
+      itemId: 3019,
+      faction: 'both',
+    },
+    {
+      name: 'Black Pearl Ring (BOE)',
+      itemId: 6332,
+      faction: 'both',
+    },
+    {
+      name: 'Nightbane Staff (BOE)',
+      itemId: 3227,
+      faction: 'both',
+    },
+    {
+      name: 'Tarantula Silk Sash (BOE)',
+      itemId: 3229,
+      faction: 'both',
+    },
+  ];
+
+  res.status(200).send(mageGear);
+});
+
+app.get('/druidgear', (req, res) => {
+  const druidGear = [
+    {
+      name: 'Crescent Staff',
+      itemId: 6505,
+      faction: 'horde',
+      rarity: 'q3',
+    },
+    {
+      name: 'Seal of Sylvanas',
+      itemId: 6414,
+      faction: 'horde',
+      rarity: 'q3',
+    },
+    {
+      name: 'Screecher Belt',
+      itemId: 16987,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Jutebraid Gloves',
+      itemId: 10654,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Grizzled Boots',
+      itemId: 6335,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Inferno Robe',
+      itemId: 2231,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Talbar Mantle',
+      itemId: 10657,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Ghostly Mantle',
+      itemId: 3324,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Sacred Burial Trousers',
+      itemId: 6282,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Glacial Stone',
+      itemId: 5815,
+      faction: 'alliance',
+      rarity: 'q2',
+    },
+    {
+      name: 'Totem of Infliction',
+      itemId: 1131,
+      faction: 'alliance',
+      rarity: 'q2',
+    },
+    {
+      name: 'Seal of Wrynn',
+      itemId: 2933,
+      faction: 'alliance',
+      rarity: 'q3',
+    },
+    {
+      name: 'Minor Channeling Ring',
+      itemId: 1449,
+      faction: 'alliance',
+      rarity: 'q2',
+    },
+    {
+      name: 'Tunic of Westfall',
+      itemId: 2041,
+      faction: 'alliance',
+      rarity: 'q3',
+    },
+    {
+      name: 'Dusty Mining Gloves',
+      itemId: 2036,
+      faction: 'alliance',
+      rarity: 'q2',
+    },
+    {
+      name: 'Pious Legwraps',
+      itemId: 10043,
+      faction: 'alliance',
+      rarity: 'q2',
+    },
+    {
+      name: 'Aquarius Belt',
+      itemId: 16608,
+      faction: 'both',
+      rarity: 'q3',
+    },
+    {
+      name: 'Veildust Medicine Bag',
+      itemId: 15866,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Staff of the Purifier',
+      itemId: 5613,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Draftsman Boots',
+      itemId: 6668,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Everglow Lantern',
+      itemId: 5323,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Black Widow Band (BOE)',
+      itemId: 6199,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Blackened Defias Armor',
+      itemId: 10399,
+      faction: 'both',
+      rarity: 'q3',
+    },
+    {
+      name: 'Blackened Defias Belt (BOE)',
+      itemId: 10403,
+      faction: 'both',
+      rarity: 'q3',
+    },
+    {
+      name: 'Blackened Defias Boots (BOE)',
+      itemId: 10402,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Tarantula Silk Sash (BOE)',
+      itemId: 3229,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Metalworking Gloves (BOE)',
+      itemId: 1944,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Woodworking Gloves (BOE)',
+      itemId: 1945,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Gloomshroud Armor (BOE)',
+      itemId: 1489,
+      faction: 'both',
+      rarity: 'q3',
+    },
+    {
+      name: 'Rugged Spaulders',
+      itemId: 5254,
+      faction: 'both',
+      rarity: 'q3',
+    },
+  ];
+  res.status(200).send(druidGear);
+});
+
+
+
 
 
 
