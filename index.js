@@ -700,6 +700,139 @@ app.get('/druidgear', (req, res) => {
   res.status(200).send(druidGear);
 });
 
+app.get('/huntergear', (req, res) => {
+  const hunterGear = [
+    {
+      name: 'Wingblade',
+      itemId: 6504,
+      faction: 'horde',
+      rarity: 'q3',
+    },
+    {
+      name: 'Runic Darkblade',
+      itemId: 3822,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Crescent Staff',
+      itemId: 6505,
+      faction: 'horde',
+      rarity: 'q3',
+    },
+    {
+      name: 'Seal of Sylvanas',
+      itemId: 6414,
+      faction: 'horde',
+      rarity: 'q3',
+    },
+    {
+      name: 'Screecher Belt',
+      itemId: 16987,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Grizzled Boots',
+      itemId: 6335,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Jutebraid Gloves',
+      itemId: 10654,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Sacred Burial Trousers',
+      itemId: 6282,
+      faction: 'horde',
+      rarity: 'q2',
+    },
+    {
+      name: 'Seraph’s Strike',
+      itemId: 5614,
+      faction: 'alliance',
+      rarity: 'q2',
+    },
+    {
+      name: 'Seal of Wrynn',
+      itemId: 2933,
+      faction: 'alliance',
+      rarity: 'q3',
+    },
+    {
+      name: 'Minor Channeling Ring',
+      itemId: 1449,
+      faction: 'alliance',
+      rarity: 'q2',
+    },
+    {
+      name: 'Tunic of Westfall',
+      itemId: 2041,
+      faction: 'alliance',
+      rarity: 'q3',
+    },
+    {
+      name: 'Dusty Mining Gloves',
+      itemId: 2036,
+      faction: 'alliance',
+      rarity: 'q2',
+    },
+    {
+      name: 'Pious Legwraps',
+      itemId: 10043,
+      faction: 'alliance',
+      rarity: 'q2',
+    },
+    {
+      name: 'Draftsman Boots',
+      itemId: 6668,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Blackened Defias Armor',
+      itemId: 10399,
+      faction: 'both',
+      rarity: 'q3',
+    },
+    {
+      name: 'Blackened Defias Belt (BoE)',
+      itemId: 10403,
+      faction: 'both',
+      rarity: 'q3',
+    },
+    {
+      name: 'Blackened Defias Boots (BoE)',
+      itemId: 10402,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Metalworking Gloves (BoE)',
+      itemId: 1944,
+      faction: 'both',
+      rarity: 'q2',
+    },
+    {
+      name: 'Gloomshroud Armor (BoE)',
+      itemId: 1489,
+      faction: 'both',
+      rarity: 'q3',
+    },
+    {
+      name: 'Rugged Spaulders',
+      itemId: 5254,
+      faction: 'both',
+      rarity: 'q3',
+    },
+  ];
+
+  res.status(200).send(hunterGear);
+});
+
 
 
 
