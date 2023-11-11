@@ -63,15 +63,15 @@ app.get('/classes', (req, res) => {
 app.get('/factions', (req, res) => {
   const factionImages = [
     {
-      faction: 'alliance',
+      faction: 'Alliance',
       imageUrl: `https://one9checkserver.onrender.com/FactionIcons/Alliance.png`,
     },
     {
-      faction: 'both',
+      faction: 'Both',
       imageUrl: `https://one9checkserver.onrender.com/FactionIcons/Both.png`,
     },
     {
-      faction: 'horde',
+      faction: 'Horde',
       imageUrl: `https://one9checkserver.onrender.com/FactionIcons/Horde.png`,
     },
   ];
