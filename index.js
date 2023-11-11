@@ -301,116 +301,116 @@ app.get('/warriorgear', (req, res) => {
     {
       name: `Seraph's Strike`,
       itemId: 5614,
-      faction: 'alliance',
-      rarity: 'q2'
+      faction: 'Alliance',
+      rarity: 'q2',
     },
     {
       name: 'Deadskull Shield',
       itemId: 3761,
-      faction: 'horde',
-      rarity: 'q2'
+      faction: 'Horde',
+      rarity: 'q2',
     },
     {
       name: 'Seal of Sylvanas',
       itemId: 6414,
-      faction: 'horde',
-      rarity: 'q3'
+      faction: 'Horde',
+      rarity: 'q3',
     },
     {
       name: 'Steel-clasped Bracers',
       itemId: 4534,
-      faction: 'horde',
-      rarity: 'q2'
+      faction: 'Horde',
+      rarity: 'q2',
     },
     {
       name: 'Grizzled Boots',
       itemId: 6335,
-      faction: 'horde',
-      rarity: 'q2'
+      faction: 'Horde',
+      rarity: 'q2',
     },
     {
       name: 'Gutterblade',
       itemId: 17046,
-      faction: 'alliance',
-      rarity: 'q2'
+      faction: 'Alliance',
+      rarity: 'q2',
     },
     {
       name: 'Glacial Stone',
       itemId: 5815,
-      faction: 'alliance',
-      rarity: 'q2'
+      faction: 'Alliance',
+      rarity: 'q2',
     },
     {
       name: 'Seal of Wrynn',
       itemId: 2933,
-      faction: 'alliance',
-      rarity: 'q3'
+      faction: 'Alliance',
+      rarity: 'q3',
     },
     {
       name: 'Beetle Clasps',
       itemId: 7003,
-      faction: 'alliance',
-      rarity: 'q2'
+      faction: 'Alliance',
+      rarity: 'q2',
     },
     {
       name: 'Chausses of Westfall',
       itemId: 6087,
-      faction: 'alliance',
-      rarity: 'q3'
+      faction: 'Alliance',
+      rarity: 'q3',
     },
     {
       name: 'Malleable Chain Leggings',
       itemId: 2545,
-      faction: 'alliance',
-      rarity: 'q2'
+      faction: 'Alliance',
+      rarity: 'q2',
     },
     {
       name: 'Rift Bracers',
       itemId: 5943,
-      faction: 'both',
-      rarity: 'q3'
+      faction: 'Both',
+      rarity: 'q3',
     },
     {
       name: 'Arctic Buckler',
       itemId: 7002,
-      faction: 'both',
-      rarity: 'q3'
+      faction: 'Both',
+      rarity: 'q3',
     },
     {
       name: 'Draftsman Boots',
       itemId: 6668,
-      faction: 'both',
-      rarity: 'q2'
+      faction: 'Both',
+      rarity: 'q2',
     },
     {
       name: 'Goblin Mail Leggings (BoE)',
       itemId: 1943,
-      faction: 'both',
-      rarity: 'q2'
+      faction: 'Both',
+      rarity: 'q2',
     },
     {
       name: 'Blackened Defias Armor',
       itemId: 10399,
-      faction: 'both',
-      rarity: 'q3'
+      faction: 'Both',
+      rarity: 'q3',
     },
     {
       name: 'Blackened Defias Boots (BoE)',
       itemId: 10402,
-      faction: 'both',
-      rarity: 'q2'
+      faction: 'Both',
+      rarity: 'q2',
     },
     {
       name: 'Blackened Defias Belt (BoE)',
       itemId: 10403,
-      faction: 'both',
-      rarity: 'q3'
+      faction: 'Both',
+      rarity: 'q3',
     },
     {
       name: 'Green Carapace Shield (BoE)',
       itemId: 2021,
-      faction: 'both',
-      rarity: 'q2'
+      faction: 'Both',
+      rarity: 'q2',
     },
   ];
 
