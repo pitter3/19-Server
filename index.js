@@ -11,6 +11,7 @@ app.use('/FactionIcons', express.static('FactionIcons'));
 
 
 
+
 app.listen(
   PORT,
   () => console.log(`Running on http://localhost:${PORT}`)
@@ -19,39 +20,39 @@ app.listen(
 app.get('/classes', (req, res) => {
   const classImages = [
     {
-      className: 'druid',
+      className: 'Druid',
       imageUrl: `http://localhost:${PORT}/ClassIcons/Icon_Druid.png`,
     },
     {
-      className: 'hunter',
+      className: 'Hunter',
       imageUrl: `http://localhost:${PORT}/ClassIcons/Icon_Hunter.png`,
     },
     {
-      className: 'mage',
+      className: 'Mage',
       imageUrl: `http://localhost:${PORT}/ClassIcons/Icon_Mage.png`,
     },
     {
-      className: 'paladin',
+      className: 'Paladin',
       imageUrl: `http://localhost:${PORT}/ClassIcons/Icon_Paladin.png`,
     },
     {
-      className: 'priest',
+      className: 'Priest',
       imageUrl: `http://localhost:${PORT}/ClassIcons/Icon_Priest.png`,
     },
     {
-      className: 'rogue',
+      className: 'Rogue',
       imageUrl: `http://localhost:${PORT}/ClassIcons/Icon_Rogue.png`,
     },
     {
-      className: 'shaman',
+      className: 'Shaman',
       imageUrl: `http://localhost:${PORT}/ClassIcons/Icon_Shaman.png`,
     },
     {
-      className: 'warlock',
+      className: 'Warlock',
       imageUrl: `http://localhost:${PORT}/ClassIcons/Icon_Warlock.png`,
     },
     {
-      className: 'warrior',
+      className: 'Warrior',
       imageUrl: `http://localhost:${PORT}/ClassIcons/Icon_Warrior.png`,
     },
   ];
@@ -301,96 +302,115 @@ app.get('/warriorgear', (req, res) => {
       name: `Seraph's Strike`,
       itemId: 5614,
       faction: 'alliance',
+      rarity: 'q2'
     },
     {
       name: 'Deadskull Shield',
       itemId: 3761,
       faction: 'horde',
+      rarity: 'q2'
     },
     {
       name: 'Seal of Sylvanas',
       itemId: 6414,
       faction: 'horde',
+      rarity: 'q3'
     },
     {
       name: 'Steel-clasped Bracers',
       itemId: 4534,
       faction: 'horde',
+      rarity: 'q2'
     },
     {
       name: 'Grizzled Boots',
       itemId: 6335,
       faction: 'horde',
+      rarity: 'q2'
     },
     {
       name: 'Gutterblade',
       itemId: 17046,
       faction: 'alliance',
+      rarity: 'q2'
     },
     {
       name: 'Glacial Stone',
       itemId: 5815,
       faction: 'alliance',
+      rarity: 'q2'
     },
     {
       name: 'Seal of Wrynn',
       itemId: 2933,
       faction: 'alliance',
+      rarity: 'q3'
     },
     {
       name: 'Beetle Clasps',
       itemId: 7003,
       faction: 'alliance',
+      rarity: 'q2'
     },
     {
       name: 'Chausses of Westfall',
       itemId: 6087,
       faction: 'alliance',
+      rarity: 'q3'
     },
     {
       name: 'Malleable Chain Leggings',
       itemId: 2545,
       faction: 'alliance',
+      rarity: 'q2'
     },
     {
       name: 'Rift Bracers',
       itemId: 5943,
       faction: 'both',
+      rarity: 'q3'
     },
     {
       name: 'Arctic Buckler',
       itemId: 7002,
       faction: 'both',
+      rarity: 'q3'
     },
     {
       name: 'Draftsman Boots',
       itemId: 6668,
       faction: 'both',
+      rarity: 'q2'
     },
     {
       name: 'Goblin Mail Leggings (BoE)',
       itemId: 1943,
       faction: 'both',
+      rarity: 'q2'
     },
     {
       name: 'Blackened Defias Armor',
       itemId: 10399,
       faction: 'both',
+      rarity: 'q3'
     },
     {
       name: 'Blackened Defias Boots (BoE)',
       itemId: 10402,
       faction: 'both',
+      rarity: 'q2'
     },
     {
       name: 'Blackened Defias Belt (BoE)',
       itemId: 10403,
       faction: 'both',
+      rarity: 'q3'
     },
     {
       name: 'Green Carapace Shield (BoE)',
       itemId: 2021,
       faction: 'both',
+      rarity: 'q2'
     },
   ];
 
@@ -403,111 +423,127 @@ app.get('/magegear', (req, res) => {
       name: 'Inferno Robe',
       itemId: 2231,
       faction: 'horde',
+      rarity: 'q2'
     },
     {
       name: 'Bloody Apron',
       itemId: 6226,
       faction: 'both',
+      rarity: 'q3'
     },
     {
       name: 'Jutebraid Gloves',
       itemId: 10654,
       faction: 'horde',
+      rarity: 'q2'
     },
     {
       name: 'Sacred Burial Trousers',
       itemId: 6282,
       faction: 'horde',
-    },
-    {
-      name: 'Chestnut Mantle',
-      itemId: 17695,
-      faction: 'horde',
+      rarity: 'q2'
     },
     {
       name: 'Ghostly Mantle',
       itemId: 3324,
       faction: 'horde',
+      rarity: 'q2'
     },
     {
       name: 'Crescent Staff',
       itemId: 6505,
       faction: 'horde',
+      rarity: 'q3'
     },
     {
       name: 'Seal of Sylvanas',
       itemId: 6414,
       faction: 'horde',
+      rarity: 'q3'
     },
     {
       name: 'Totem of Infliction',
       itemId: 1131,
       faction: 'alliance',
+      rarity: 'q2'
     },
     {
       name: 'Seal of Wyrnn',
       itemId: 2933,
       faction: 'alliance',
+      rarity: 'q3'
     },
     {
       name: 'Minor Channeling Ring',
       itemId: 1449,
       faction: 'alliance',
+      rarity: 'q2'
     },
     {
       name: 'Pious Legwraps',
       itemId: 10043,
       faction: 'alliance',
+      rarity: 'q2'
     },
     {
       name: 'Talbar Mantle',
       itemId: 10657,
       faction: 'both',
+      rarity: 'q2'
     },
     {
       name: 'Staff of the Purifier',
       itemId: 5613,
       faction: 'both',
+      rarity: 'q2'
     },
     {
       name: 'Gravestone Scepter',
       itemId: 7001,
       faction: 'both',
+      rarity: 'q3'
     },
     {
       name: 'Everglow Lantern',
       itemId: 5323,
       faction: 'both',
+      rarity: 'q2'
     },
     {
       name: 'Black Widow Band (BOE)',
       itemId: 6199,
       faction: 'both',
+      rarity: 'q2'
     },
     {
       name: 'Walking Boots (BOE)',
       itemId: 4660,
       faction: 'both',
+      rarity: 'q2'
     },
     {
       name: `Noble's Robe (BOE)`,
       itemId: 3019,
       faction: 'both',
+      rarity: 'q2'
     },
     {
       name: 'Black Pearl Ring (BOE)',
       itemId: 6332,
       faction: 'both',
+      rarity: 'q3'
     },
     {
       name: 'Nightbane Staff (BOE)',
       itemId: 3227,
       faction: 'both',
+      rarity: 'q2'
     },
     {
       name: 'Tarantula Silk Sash (BOE)',
       itemId: 3229,
       faction: 'both',
+      rarity: 'q2'
     },
   ];
 
@@ -1447,13 +1483,6 @@ app.get('/paladingear', (req, res) => {
   ];
   res.status(200).send(paladinGear);
 });
-
-
-
-
-
-
-
 
 // app.get('/alliancerogue', (req, res) => {
 //   const allianceRogueGear = [
