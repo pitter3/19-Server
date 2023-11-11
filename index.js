@@ -64,15 +64,15 @@ app.get('/factions', (req, res) => {
   const factionImages = [
     {
       faction: 'alliance',
-      imageUrl: `https://one9checkserver.onrender.com/FactionIcons/alliance.png`,
+      imageUrl: `https://one9checkserver.onrender.com/FactionIcons/Alliance.png`,
     },
     {
       faction: 'both',
-      imageUrl: `https://one9checkserver.onrender.com/FactionIcons/both.png`,
+      imageUrl: `https://one9checkserver.onrender.com/FactionIcons/Both.png`,
     },
     {
       faction: 'horde',
-      imageUrl: `https://one9checkserver.onrender.com/FactionIcons/horde.png`,
+      imageUrl: `https://one9checkserver.onrender.com/FactionIcons/Horde.png`,
     },
   ];
 
