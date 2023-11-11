@@ -33,27 +33,27 @@ app.get('/classes', (req, res) => {
     },
     {
       className: 'Paladin',
-      imageUrl: `https://one9checkserver.onrender.com/ClassIcons/Icon_Mage.png/ClassIcons/Icon_Paladin.png`,
+      imageUrl: `https://one9checkserver.onrender.com/ClassIcons/Icon_Paladin.png`,
     },
     {
       className: 'Priest',
-      imageUrl: `https://one9checkserver.onrender.com/ClassIcons/Icon_Mage.png/ClassIcons/Icon_Priest.png`,
+      imageUrl: `https://one9checkserver.onrender.com/ClassIcons/Icon_Priest.png`,
     },
     {
       className: 'Rogue',
-      imageUrl: `https://one9checkserver.onrender.com/ClassIcons/Icon_Mage.png/ClassIcons/Icon_Rogue.png`,
+      imageUrl: `https://one9checkserver.onrender.com/ClassIcons/Icon_Rogue.png`,
     },
     {
       className: 'Shaman',
-      imageUrl: `https://one9checkserver.onrender.com/ClassIcons/Icon_Mage.png/ClassIcons/Icon_Shaman.png`,
+      imageUrl: `https://one9checkserver.onrender.com/ClassIcons/Icon_Shaman.png`,
     },
     {
       className: 'Warlock',
-      imageUrl: `https://one9checkserver.onrender.com/ClassIcons/Icon_Mage.png/ClassIcons/Icon_Warlock.png`,
+      imageUrl: `https://one9checkserver.onrender.com/ClassIcons/Icon_Warlock.png`,
     },
     {
       className: 'Warrior',
-      imageUrl: `https://one9checkserver.onrender.com/ClassIcons/Icon_Mage.png/ClassIcons/Icon_Warrior.png`,
+      imageUrl: `https://one9checkserver.onrender.com/ClassIcons/Icon_Warrior.png`,
     },
   ];
 
@@ -64,21 +64,21 @@ app.get('/factions', (req, res) => {
   const factionImages = [
     {
       faction: 'alliance',
-      imageUrl: `https://one9checkserver.onrender.com/ClassIcons/Icon_Mage.png/FactionIcons/Alliance.png`,
+      imageUrl: `https://one9checkserver.onrender.com/FactionIcons/Alliance.png`,
     },
     {
       faction: 'both',
-      imageUrl: `https://one9checkserver.onrender.com/ClassIcons/Icon_Mage.png/FactionIcons/Both.png`,
+      imageUrl: `https://one9checkserver.onrender.com/FactionIcons/Both.png`,
     },
     {
       faction: 'horde',
-      imageUrl: `https://one9checkserver.onrender.com/ClassIcons/Icon_Mage.png/FactionIcons/Horde.png`,
+      imageUrl: `https://one9checkserver.onrender.com/FactionIcons/Horde.png`,
     },
-
   ];
 
   res.status(200).send(factionImages);
 });
+
 
 app.get('/roguegear', (req, res) => {
   const rogueGear = [
