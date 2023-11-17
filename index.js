@@ -905,6 +905,12 @@ app.get('/shamangear', (req, res) => {
       rarity: 'q2',
     },
     {
+      name: 'Black Pearl Ring (BoE)',
+      itemId: 6332,
+      faction: 'Both',
+      rarity: 'q3',
+    },
+    {
       name: 'Talbar Mantle',
       itemId: 10657,
       faction: 'Both',
@@ -1006,6 +1012,12 @@ app.get('/warlockgear', (req, res) => {
       faction: 'Both',
       rarity: 'q2',
     },
+    {
+      name: 'Black Pearl Ring (BoE)',
+      itemId: 6332,
+      faction: 'Both',
+      rarity: 'q3',
+    },
   ];
 
   res.status(200).send(warlockGear);
@@ -1102,6 +1114,12 @@ app.get('/priestgear', (req, res) => {
       itemId: 3019,
       faction: 'Both',
       rarity: 'q2',
+    },
+    {
+      name: 'Black Pearl Ring (BoE)',
+      itemId: 6332,
+      faction: 'Both',
+      rarity: 'q3',
     },
   ];
   res.status(200).send(priestGear);
@@ -1306,6 +1324,12 @@ app.get('/paladingear', (req, res) => {
       itemId: 2021,
       faction: 'Both',
       rarity: 'q2',
+    },
+    {
+      name: 'Black Pearl Ring (BoE)',
+      itemId: 6332,
+      faction: 'Both',
+      rarity: 'q3',
     },
     {
       name: 'Talbar Mantle',
