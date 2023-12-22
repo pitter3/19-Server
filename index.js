@@ -500,6 +500,12 @@ app.get('/druidgear', (req, res) => {
       rarity: 'q2',
     },
     {
+      name: 'Glacial Stone (A)',
+      itemId: 5815,
+      faction: 'Alliance',
+      rarity: 'q2',
+    },
+    {
       name: 'Staff of the Purifier',
       itemId: 5613,
       faction: 'Both',
@@ -548,12 +554,6 @@ app.get('/druidgear', (req, res) => {
       rarity: 'q2',
     },
     {
-      name: 'Gravestone Scepter',
-      itemId: 7001,
-      faction: 'Both',
-      rarity: 'q3',
-    },
-    {
       name: 'Everglow Lantern',
       itemId: 5323,
       faction: 'Both',
@@ -595,7 +595,24 @@ app.get('/druidgear', (req, res) => {
       faction: 'Both',
       rarity: 'q2',
     },
-    
+    {
+      name: "Blackened Defias Armor (BoE)",
+      itemId: 10399,
+      faction: "Both",
+      rarity: "q3"
+    },
+    {
+      name: "Blackened Defias Belt (BoE)",
+      itemId: 10403,
+      faction: "Both",
+      rarity: "q3"
+    },
+    {
+      name: "Blackened Defias Boots (BoE)",
+      itemId: 10402,
+      faction: "Both",
+      rarity: "q2"
+    },
   ];
   res.status(200).send(druidGear);
 });
