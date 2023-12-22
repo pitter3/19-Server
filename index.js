@@ -554,12 +554,6 @@ app.get('/druidgear', (req, res) => {
       rarity: 'q2',
     },
     {
-      name: 'Gravestone Scepter',
-      itemId: 7001,
-      faction: 'Both',
-      rarity: 'q3',
-    },
-    {
       name: 'Everglow Lantern',
       itemId: 5323,
       faction: 'Both',
