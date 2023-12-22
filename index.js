@@ -500,6 +500,12 @@ app.get('/druidgear', (req, res) => {
       rarity: 'q2',
     },
     {
+      name: 'Glacial Stone (A)',
+      itemId: 5815,
+      faction: 'Alliance',
+      rarity: 'q2',
+    },
+    {
       name: 'Staff of the Purifier',
       itemId: 5613,
       faction: 'Both',
