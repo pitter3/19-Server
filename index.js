@@ -578,6 +578,12 @@ app.get('/druidgear', (req, res) => {
       rarity: 'q2',
     },
     {
+      name: "Woodworking Gloves (BoE)",
+      itemId: 1945,
+      faction: "Both",
+      rarity: "q2"
+    },
+    {
       name: 'Black Pearl Ring (BoE)',
       itemId: 6332,
       faction: 'Both',
@@ -596,7 +602,7 @@ app.get('/druidgear', (req, res) => {
       rarity: 'q2',
     },
     {
-      name: "Blackened Defias Armor (BoE)",
+      name: "Blackened Defias Armor",
       itemId: 10399,
       faction: "Both",
       rarity: "q3"
@@ -699,7 +705,7 @@ app.get('/huntergear', (req, res) => {
       rarity: "q2"
     },
     {
-      name: "Blackened Defias Armor (BoE)",
+      name: "Blackened Defias Armor",
       itemId: 10399,
       faction: "Both",
       rarity: "q3"
